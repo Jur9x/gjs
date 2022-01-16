@@ -52,9 +52,9 @@ function draw() {
     if (promena == 0) {
         textSize(50);
         fill("black");
-        canvas.text("Game over!", width / 2 - 140, 220);
-        canvas.text(`Your score is ${oldskore}`, width / 2 - 170, 270);
-        canvas.text("Click on purple circle to play again!", width / 2 - 380, 320);
+        canvas.text("Game over!", width / 2 - 140, 150);
+        canvas.text(`Your score is ${oldskore}`, width / 2 - 170, 200);
+        canvas.text("Click on purple circle to play again!", width / 2 - 380, 250);
         mainc.x = width / 2;
         mainc.y = height / 2;
         fill("purple");
