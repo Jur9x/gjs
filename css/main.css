@@ -1,0 +1,21 @@
+* {
+    overflow: hidden;
+    outline: none;
+    box-shadow: none !important;
+    user-select: none;
+}
+
+body {
+    background-image: url(../sources/idk.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+canvas {
+    border: 4px solid black;
+}
